@@ -1,0 +1,35 @@
+.row li{
+    display: flex;  /* 使用弹性布局 */
+    flex-direction: row; /* 水平排列子元素 */
+    justify-content: left; /* 水平对齐到左侧 */
+    text-align: left; /* 文本左对齐 */
+    align-items: flex-start; /* 垂直对齐到顶部 */
+    gap: 1em;
+    padding:0.5em;
+}
+
+.form li{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: left;
+    align-items: flex-start;
+    gap: 1em;
+    padding:0.5em;
+}
+.form li span{
+    display: inline-block; /* 内联块级元素 */
+    text-align: left;
+    width: 5rem;
+}
+.form li input{
+    display: inline-block;
+    width: 10rem;
+    text-align: left;
+}
+.button{
+    display: inline-block;
+    align-self: flex-start; /* 在父容器内左对齐 */
+    margin-left: 6rem;
+}
+

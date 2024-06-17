@@ -1,0 +1,51 @@
+main{
+    display: flex; /* 使用弹性布局 */
+    flex-direction: column; /* 垂直排列子元素 */
+    justify-content: center; /* 垂直居中对齐 */
+    align-items: center; /* 水平居中对齐 */
+    text-align: center; /* 使文本居中 */
+    margin-top: 200px;
+    gap: 1px;
+}
+.content{
+    margin: 0; /* 清除外边距 */
+    padding: 0; /* 清除内边距 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    margin: 0px;
+}
+.content h1,
+.content h2 {
+    margin:4px; /* 清除标题的上下外边距 */
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* 垂直对齐到容器底部 */
+    text-align: center; 
+    height: 100%; /* 高度占满父容器 */
+    margin-bottom: auto;
+}
+.bk{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+.bk a{
+    text-decoration: none; /* 移除链接的下划线 */
+}
+.bk a:hover{
+    color: #1565c0; /* 鼠标悬停时链接颜色变成这个 */
+    text-decoration: none;
+}
+.bk img{
+    width: 40px;
+    height: 40px;
+}
+
+
+

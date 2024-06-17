@@ -1,0 +1,36 @@
+.row{
+    display: flex; /* 使用弹性布局 */
+    flex-direction: row; /* 水平排列子元素 */
+    justify-content: right; /* 水平对齐到右侧 */
+    text-align: left; /* 文本左对齐 */
+    align-items: flex-start; /* 垂直对齐到顶部 */
+    gap: 1em;
+    padding:0.5em; /* 内边距 */
+}
+
+ul{
+    list-style: none; /* 移除列表样式 */
+}
+.date{
+    display: inline-block; /* 内联块级元素 */
+    width: 19rem;
+    text-align: right; /* 文本右对齐 */
+    margin-right: 3rem;
+    font-size: 18px;
+}
+
+
+/* .title{ */
+    /* text-decoration: none; */
+    /* color: rgb(0, 0, 0); */
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; */
+    /* font-size: 18px; */
+    /* font-weight: 500; */
+/* } */
+/*a:hover{*/
+/*    color: #1565c0;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+
+

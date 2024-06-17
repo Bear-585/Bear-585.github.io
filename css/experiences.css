@@ -1,0 +1,17 @@
+.title{
+    flex: 2; /* 弹性盒子的扩展比率 */
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen-Sans, Ubuntu, Cantarell, helvetica neue, Helvetica, 游ゴシック, pingfang sc, STXihei, 华文细黑, microsoft yahei, 微软雅黑, SimSun, 宋体, Heiti, 黑体, sans-serif;
+    font-weight: 700; /* 粗体 */
+}
+.row{
+    display: flex; /* 使用弹性布局 */
+    flex-direction: row; /* 水平排列子元素 */
+    justify-content: center;  /* 水平居中对齐 */
+    align-items: flex-start; /* 垂直对齐到顶部 */
+    gap: 1em;
+    padding:0.5em;
+}
+.row a{
+    max-width: 500px; /* 链接的最大宽度 */
+}
+
